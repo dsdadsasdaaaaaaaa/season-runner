@@ -1,5 +1,5 @@
 name: Season Runner
-version: "1.0.0"
+version: "1.0.1"
 slug: season_runner
 description: Runs a Sleeper fantasy season unattended - sets lineups, works the waiver wire, shows the matchup.
 arch:
