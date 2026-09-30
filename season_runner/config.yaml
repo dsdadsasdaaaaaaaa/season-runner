@@ -1,0 +1,30 @@
+name: Season Runner
+version: "1.0.0"
+slug: season_runner
+description: Runs a Sleeper fantasy season unattended - sets lineups, works the waiver wire, shows the matchup.
+arch:
+  - amd64
+init: false
+boot: auto
+startup: application
+ingress: true
+ingress_port: 8099
+ingress_stream: true
+panel_icon: mdi:football
+panel_title: Season
+panel_admin: true
+homeassistant_api: true
+options:
+  league_id: ""
+  user_id: ""
+  username: ""
+  draft_id: ""
+  league_name: "My League"
+  draft_slot: 1
+schema:
+  league_id: str
+  user_id: str
+  username: str?
+  draft_id: str?
+  league_name: str?
+  draft_slot: int?
